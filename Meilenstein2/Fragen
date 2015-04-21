@@ -1,3 +1,6 @@
-Allgemeines Feedback zum Meilenstein 2
+﻿Allgemeines Feedback zum Meilenstein 2
+Ist die Verteiltheit ausreichend ?
+Über die Sensorik des Smartphones des Autisten sollen Situationen (Firmennetz, Akustik, GPS) erkannt werden und anhand dieser über eine REST-Schnittstelle Handlungsoptionen ermittelt werden. Die neurotypischen Personen sollen Handlungsoptionen vorschlagen und selber Handlungsoptionen platzieren. Außerdem soll die neurotypische Person angezeigt bekommen, welchen Erfolg seine Handlungsoptionen erzielt haben.
+
 Zielhierarchie: das operative Ziel ist nicht ganz klar, ob eine Auflistung der Vorgehensweise, wie Stakeholderanalyse, Benutzermodellierung etc. vorgenommen werden soll
 Problemanalyse: Mehr ins Detail gehen, welche Typen es von Autisten gibt? Soll eine Definition des neurotypischen Person rein oder ist es selbsterklärend
