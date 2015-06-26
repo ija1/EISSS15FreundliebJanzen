@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutismSupport</string>
+    <string name="titel_activity_profile">Profile</string>
+    <string name="titel_activity_receivetermin">Termin Empfangen</string>
+    <string name="titel_activity_profiledisplay">Profil Anzeige</string>
+    <string name="titel_activity_notfallchat">Notfall Situation</string>
+    <string name="notfallchat">Notfallchat</string>
+    <string name="hello_world">Termin</string>
+    <string name="action_settings">Settings</string>
+    <string name="receivetermin">Termin entgegennehmen</string>
+	<string name="profile">Profil</string>
+	<string name="beenden">Beenden</string>
+	<string name="titel_activity_handlungsprofil">Handlungsprofil</string>
+	<string name="vorname">Vorname:</string>
+	<string name="handlungsprofil">Handlungsprofil</string>
+	<string name="nachname">Nachname:</string>
+	<string name="alter">Alter:</string>
+	<string name="email">Email:</string>
+	<string name="betrieb">Betrieb:</string>
+	<string name="jobcoachvorname">Jobcoach Vorname:</string>
+	<string name="jobcoachnachname">Jobcoach nachname:</string>
+</resources>

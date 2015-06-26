@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent"
+>
+ <LinearLayout
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+<TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/profile" />
+
+<RelativeLayout
+    android:layout_marginTop="10dp"
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+
+	<TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:text="@string/vorname" />
+	<TextView
+	    android:id="@+id/vorname"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:layout_marginLeft="150dp"
+	    android:lines="5" 
+	    android:scrollHorizontally="false" 
+	    android:hint="Vorname: "
+	 />
+
+ </RelativeLayout>
+ 
+<RelativeLayout
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+	
+<TextView android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:text="@string/nachname" />
+ <TextView
+	   android:id="@+id/nachname"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:lines="5" 
+       android:scrollHorizontally="false" 
+       android:layout_marginLeft="150dp"
+       android:hint="Nachname: "
+ />
+ </RelativeLayout>
+ 
+<RelativeLayout
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+
+<TextView android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:text="@string/alter" />
+<TextView
+       android:id="@+id/alter"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:lines="5" 
+       android:scrollHorizontally="false" 
+       android:layout_marginLeft="150dp"
+       android:hint="Alter "
+ />
+</RelativeLayout>
+
+
+<RelativeLayout
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+
+<TextView android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:text="@string/email" />
+ <TextView
+       android:id="@+id/email"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:lines="5" 
+       android:scrollHorizontally="false" 
+       android:layout_marginLeft="150dp"
+       android:hint="Email: "
+ />
+ 
+ </RelativeLayout>
+ 
+
+<RelativeLayout
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+ 
+<TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+android:text="@string/betrieb" />
+<TextView
+       android:id="@+id/betrieb"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:lines="5" 
+       android:scrollHorizontally="false" 
+       android:layout_marginLeft="150dp"
+       android:hint="Betrieb: "
+ />
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+ 
+<TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+android:text="@string/jobcoachvorname" />
+<TextView
+       android:id="@+id/jobcoachvorname"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:lines="5" 
+       android:scrollHorizontally="false" 
+       android:layout_marginLeft="150dp"
+ />
+</RelativeLayout>
+
+<RelativeLayout
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+ 
+<TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginLeft="20dp"
+android:text="@string/jobcoachnachname" />
+<TextView
+       android:id="@+id/jobcoachnachname"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:lines="5" 
+       android:scrollHorizontally="false" 
+       android:layout_marginLeft="150dp"
+ />
+
+</RelativeLayout>
+ 
+<RelativeLayout
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+     <Button
+        android:id="@+id/saveProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Hauptmenü" android:onClick="btnToMainMenu"/>
+</RelativeLayout>
+  
+ </LinearLayout>
+ </ScrollView>

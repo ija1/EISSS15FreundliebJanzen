@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+ android:layout_height="wrap_content"
+ android:layout_width="fill_parent">
+ 
+<TextView
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ android:text="Es hat sich ein Termin überschnitten, möchten Sie ihre Kollegen benachrichtigen, dann bestätigen Sie mit OK. "
+ />
+<TextView
+ android:id="@+id/title"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ />
+<TextView
+ android:id="@+id/startDate"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ />
+<TextView
+ android:id="@+id/endDate"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ />
+<TextView
+ android:id="@+id/with"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ android:text="mit"
+ />
+<TextView
+ android:id="@+id/titleOverlap"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ />
+<TextView
+ android:id="@+id/startDateOverlap"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ />
+<TextView
+ android:id="@+id/endDateOverlap"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ />
+<TextView
+ android:id="@+id/overlap"
+ android:layout_height="fill_parent"
+ android:layout_width="wrap_content"
+ android:text="überschnitten"
+ />
+
+<RelativeLayout
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+     <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:hint="Ok"
+        />
+     
+     <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:hint="Nein"
+        />
+</RelativeLayout>
+ </LinearLayout>

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+    <Button
+        android:id="@+id/receivetermin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/receivetermin"
+        android:onClick="onClickReceiveTermin" 
+        />
+    <Button
+        android:id="@+id/userprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:onClick="onClickUserProfile" 
+        />
+    <Button
+        android:id="@+id/notfallChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/notfallchat"
+        android:onClick="onClickNotFallChat" 
+        />
+    <Button
+        android:id="@+id/handlungsprofil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/handlungsprofil"
+        android:onClick="onClickHandlungsprofil" 
+        />
+<!--     <Button -->
+<!--         android:id="@+id/start_event" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:text="@string/start_event" -->
+<!--         android:onClick="onClickEvent"  -->
+<!--         /> -->
+<!--     <Button -->
+<!--         android:id="@+id/start_cal" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:text="@string/start_cal" -->
+<!--         android:onClick="onClickCal"  -->
+<!--         /> -->
+<!--     <Button -->
+<!--         android:id="@+id/start_audio" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:text="@string/start_audio" -->
+<!--         android:onClick="onClickAudio"  -->
+<!--         /> -->
+<!--     <Button -->
+<!--         android:id="@+id/start_gcm" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:text="@string/start_gcm" -->
+<!--         android:onClick="onClickRegGCM"  -->
+<!--         /> -->
+
+</LinearLayout>

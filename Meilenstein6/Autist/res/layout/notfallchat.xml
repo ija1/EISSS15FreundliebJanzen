@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent"
+    >
+     <LinearLayout
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ <LinearLayout
+android:id="@+id/situationLayout"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+
+ 
+ <EditText
+ android:id="@+id/situationsbeschreibung"
+ android:layout_height="wrap_content"
+ android:layout_width="match_parent"
+ android:hint="Situationsbeschreibung: " 
+ android:inputType="textCapWords"
+ />
+ <EditText
+ android:id="@+id/category"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="2" 
+    android:hint="Kategorie: "
+ />
+ <EditText
+ android:id="@+id/employeeincontextfirstname"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Vorname von Mitarbeiter im Kontext: "
+ />
+ <EditText
+ android:id="@+id/employeeincontextlastname"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Nachname von Mitarbeiter im Kontext: "
+ />
+ <EditText
+ android:id="@+id/employeeposition"
+    android:inputType="textMultiLine"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Mitarbeiterposition: "
+ />
+ </LinearLayout>
+ <LinearLayout
+android:id="@+id/reviewID"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ </LinearLayout>
+ <LinearLayout
+android:id="@+id/sendID"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ </LinearLayout>
+ 
+<RelativeLayout
+android:id="@+id/buttonsID"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+     <Button
+        android:id="@+id/sendsituation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Sende Situation" android:onClick="btnSendSituation"/>
+     
+     <Button
+        android:id="@+id/btnCancelSituation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Abbrechen" android:onClick="btnCancelSituation"/>
+</RelativeLayout>
+     
+ </LinearLayout>
+ </ScrollView>
