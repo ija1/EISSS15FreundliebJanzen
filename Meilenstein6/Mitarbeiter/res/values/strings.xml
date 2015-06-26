@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Miarbeiter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="receiveRating">Bewerten</string>
+    <string name="profile">Profil</string>
+	<string name="vorname">Vorname:</string>
+	<string name="nachname">Nachname:</string>
+	<string name="alter">Alter:</string>
+	<string name="email">Email:</string>
+	<string name="betrieb">Betrieb:</string>
+	<string name="beenden">Beenden</string>
+	<string name="jobcoachvorname">Jobcoach Vorname:</string>
+	<string name="jobcoachnachname">Jobcoach nachname:</string>
+	<string name="titel_activity_profiledisplay">Profil</string>
+	<string name="titel_activity_profile">Profil</string>
+	<string name="titel_activity_rating">Bewertung</string>
+	<string name="receivetermin">Termin entgegennehmen</string>
+	
+</resources>
