@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Job Coach</string>
+    <string name="hello_world">Termin</string>
+    <string name="end_datum">End Zeit</string>
+    <string name="start_datum">Sart Zeit</string>
+    <string name="action_settings">Settings</string>
+    <string name="titel_activity_profile">Profil</string>
+    <string name="titel_activity_profiledisplay">Profil Display</string>
+    <string name="titel_activity_terminvergabe">Terminvergabe</string>
+    <string name="titel_activity_betreuung">Betreuung</string>
+    <string name="titel_activity_receivetermin">Terminbestätigung</string>
+    <string name="titel_activity_notfallchat">Notfall Situation</string>
+    <string name="notfallchat">Notfallchat</string>
+    <string name="notfallText">Derzeit liegen keine Anfragen vor!</string>
+    <string name="titel_activity_chatwithautist">Notfall</string>
+    <string name="statistics">Statistiken</string>
+    <string name="titel_activity_statistics">Statistiken</string>
+    <string name="betreuung">Betreuung</string>
+    <string name="profile">Profil</string>
+	<string name="beenden">Beenden</string>
+	<string name="terminvergabe">Terminvergabe</string>
+	<string name="vorname">Vorname:</string>
+	<string name="receivetermin">Termin annehmen:</string>
+	
+	<string name="nachname">Nachname:</string>
+	<string name="alter">Alter:</string>
+	<string name="email">Email:</string>
+	<string name="betrieb">Betrieb:</string>
+	<string name="jobcoachvorname">Jobcoach Vorname:</string>
+	<string name="jobcoachnachname">Jobcoach nachname:</string>
+	
+	<string name="txt_categorie">Kategorie</string>
+	<string name="txt_prozent">Sum %</string>
+	<string name="txt_employee">Mitarbeiter</string>
+	<string name="txt_autist">Autist</string>
+	
+	
+	<string name="goodRatingEmployee">Gut</string>
+	<string name="centralRatingEmployee">Mittel</string>
+	<string name="badRatingEmployee">Schlecht</string>
+	<string name="goodRatingAutist">Gut</string>
+	<string name="centralRatingAutist">Mittel</string>
+	<string name="badRatingAutist">Schlecht</string>
+	<string name="txt_employeeHundret">100%</string>
+	<string name="txt_autistHundret">100%</string>
+	
+
+	<string name="cancelButton">Hauptmenü</string>
+</resources>

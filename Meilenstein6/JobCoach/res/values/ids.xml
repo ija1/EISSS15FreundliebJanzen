@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 The Android Open Source Project
+ 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+ 
+      http://www.apache.org/licenses/LICENSE-2.0
+ 
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources>
+ 
+    <!--
+        Generate an id which can be used when the location menu item is added in MainActivity
+    -->
+    <item name="situation_title" type="id"/>
+    <item name="situation_step1" type="id"/>
+    <item name="situation_reason" type="id"/>
+    <item name="add_button" type="id"/>
+    <item name="chat_about_action" type="id"/>
+    <item name="step2" type="id"/>
+    <item name="step3" type="id"/>
+    <item name="step4" type="id"/>
+    <item name="step5" type="id"/>
+    <item name="step6" type="id"/>
+    <item name="step7" type="id"/>
+    <item name="step8" type="id"/>
+    <item name="step9" type="id"/>
+    <item name="step10" type="id"/>
+    <item name="step11" type="id"/>
+    <item name="step12" type="id"/>
+    <item name="step13" type="id"/>
+    <item name="step14" type="id"/>
+    <item name="step15" type="id"/>
+    <item name="step16" type="id"/>
+    <item name="step17" type="id"/>
+    <item name="step18" type="id"/>
+    <item name="step19" type="id"/>
+    <item name="step20" type="id"/>
+</resources>

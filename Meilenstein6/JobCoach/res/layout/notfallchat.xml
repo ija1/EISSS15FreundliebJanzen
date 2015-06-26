@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent"
+    >
+ <LinearLayout
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">  
+ <LinearLayout
+android:id="@+id/situationLayout"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ </LinearLayout>
+ <LinearLayout
+android:id="@+id/actionLayout"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+</LinearLayout> 
+ <LinearLayout
+android:id="@+id/reasonLayout"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+</LinearLayout> 
+<RelativeLayout
+android:id="@+id/buttonLayout"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+     <Button
+        android:id="@+id/sendAction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Sende Situation" android:onClick="btnSendAction"/>
+     
+     <Button
+        android:id="@+id/btnCancelSituation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Abbrechen" android:onClick="btnCancel"/>
+</RelativeLayout>
+    
+ </LinearLayout>
+ </ScrollView>

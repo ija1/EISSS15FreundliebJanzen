@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent"
+    >
+<LinearLayout 
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp">
+         <TextView
+                android:width="53dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+          <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="#FF909090" />
+         <TextView
+                android:width="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:width="65dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_employee"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:width="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="#FF909090" />
+            <TextView
+                android:width="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+			<TextView
+                android:id="@+id/autist"
+                android:width="35dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_autist"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:width="50dp"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+         <View
+        android:layout_height="1dip"
+        android:background="#FF909090" />
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            >
+
+            <TextView
+                android:id="@+id/categorie"
+                android:width="53dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_categorie"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+             <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="#FF909090" />
+            <TextView
+                android:id="@+id/goodRatingEmployee"
+                android:width="20dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/goodRatingEmployee"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/centralRatingEmployee"
+                android:width="65dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/centralRatingEmployee"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/badRatingEmployee"
+                android:width="50dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/badRatingEmployee"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="#FF909090" />
+            <TextView
+                android:id="@+id/goodRatingAutist"
+                android:width="25dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/goodRatingAutist"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/centralRatingAutist"
+                android:width="35dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/centralRatingAutist"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            <TextView
+                android:id="@+id/badRatingAutist"
+                android:width="50dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/badRatingAutist"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+        <View
+        android:layout_height="1dip"
+        android:background="#FF909090" />
+
+        <TableLayout
+             android:id="@+id/lyo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        </TableLayout>
+        <LinearLayout android:id="@+id/ratings"
+            android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+<!--          <TableRow -->
+<!--             android:id="@+id/tableRow3" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_marginLeft="5dp"> -->
+<!--            <TextView -->
+<!--                 android:id="@+id/prozent" -->
+<!--                 android:width="50dp" -->
+<!--                 android:textSize="11sp" -->
+<!--                 android:textStyle="bold" -->
+<!--                 android:layout_marginLeft="5dp" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="@string/txt_prozent" -->
+<!--                 android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+<!--           <ImageView -->
+<!--                     android:layout_width="1dip" -->
+<!--                     android:layout_height="fill_parent" -->
+<!--                     android:background="#FF909090" /> -->
+<!--          <TextView -->
+<!--                 android:width="20dp" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content"/> -->
+<!--             <TextView -->
+<!--                 android:width="65dp" -->
+<!--                 android:textSize="11sp" -->
+<!--                 android:textStyle="bold" -->
+<!--                 android:layout_marginLeft="25dp" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="@string/txt_employeeHundret" -->
+<!--                 android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+<!--             <TextView -->
+<!--                 android:width="50dp" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content"/> -->
+<!--             <ImageView -->
+<!--                     android:layout_width="1dip" -->
+<!--                     android:layout_height="fill_parent" -->
+<!--                     android:background="#FF909090" /> -->
+<!--             <TextView -->
+<!--                 android:width="25dp" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content"/> -->
+<!-- 			<TextView -->
+<!--                 android:width="35dp" -->
+<!--                 android:textSize="11sp" -->
+<!--                 android:textStyle="bold" -->
+<!--                 android:layout_marginLeft="5dp" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="@string/txt_autistHundret" -->
+<!--                 android:textAppearance="?android:attr/textAppearanceLarge" /> -->
+<!--             <TextView -->
+<!--                 android:width="50dp" -->
+<!--                 android:textSize="11sp" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content"/> -->
+<!--         </TableRow> -->
+<!--          <View -->
+<!--         android:layout_height="2dip" -->
+<!--         android:background="#FF909090" /> -->
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+		<Button
+	        android:id="@+id/cancelButton"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/cancelButton"
+	        android:onClick="onClickCancel" 
+	        />   
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

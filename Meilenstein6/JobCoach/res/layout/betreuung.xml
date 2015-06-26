@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent"
+    >
+ <LinearLayout
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+     <LinearLayout
+         android:id="@+id/userlist"
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ </LinearLayout>
+ 
+<TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/betreuung" />
+
+
+ <EditText
+ android:id="@+id/newvorname"
+    android:inputType="textMultiLine"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Vorname: "
+ />
+ 
+ <EditText
+ android:id="@+id/newnachname"
+    android:inputType="textMultiLine"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Nachname: "
+ />
+ 
+ <EditText
+ android:id="@+id/newemail"
+    android:inputType="textMultiLine"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Email: "
+ />
+<EditText
+ android:id="@+id/newbetrieb"
+    android:inputType="textMultiLine"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Betrieb: "
+ />
+ 
+<RelativeLayout
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+     <Button
+        android:id="@+id/saveUserList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Betruungsliste erweitern" android:onClick="btnSaveUserList"/>
+     
+     <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Abbrechen" android:onClick="btnCancel"/>
+</RelativeLayout>
+  
+ </LinearLayout>
+ </ScrollView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent"
+    >
+ <LinearLayout
+ android:orientation="vertical"
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+<TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/hello_world" />
+
+<Spinner
+        android:id="@+id/userlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+ <EditText
+ android:id="@+id/betreff"
+    android:inputType="textMultiLine"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Betreff"
+ />
+ 
+ 
+ 
+ <TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/start_datum" />
+ 
+  <DatePicker
+      android:id="@+id/startDate"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:hint="Start Datum:"
+      />
+  <TimePicker  android:id="@+id/startTime"
+      	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+      />
+  
+  
+   <TextView android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/end_datum" />
+   
+  <DatePicker
+      android:id="@+id/endDate"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:hint="End Datum"
+      />
+  <TimePicker  android:id="@+id/endTime"
+      	android:layout_height="wrap_content"
+    	android:layout_width="wrap_content"
+      />
+
+ 
+ 
+  <EditText
+ android:id="@+id/bemerkung"
+    android:inputType="textMultiLine"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:lines="5" 
+    android:scrollHorizontally="false" 
+    android:hint="Bemerkung"
+ />
+ 
+<RelativeLayout
+ android:layout_height="match_parent"
+ android:layout_width="match_parent">
+ 
+     <Button
+        android:id="@+id/sendTermin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Senden" android:onClick="btnSendTermin"/>
+     
+     <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Abbrechen" android:onClick="btnCancel"/>
+</RelativeLayout>
+  
+ </LinearLayout>
+ </ScrollView>
