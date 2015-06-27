@@ -12,5 +12,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+    
+<!--     <EditText -->
+<!--  android:id="@+id/out3" -->
+<!--  android:layout_height="70px" -->
+<!--  android:layout_width="fill_parent" -->
+<!--  android:layout_centerInParent="true" -->
+<!--  android:maxHeight="70px" -->
+<!--  android:hint="Enter Name:" -->
+<!--  android:inputType="textVisiblePassword" -->
+<!--  /> -->
 
 </RelativeLayout>

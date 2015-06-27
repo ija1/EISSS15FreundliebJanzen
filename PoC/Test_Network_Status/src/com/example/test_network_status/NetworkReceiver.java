@@ -19,32 +19,49 @@ public class NetworkReceiver extends BroadcastReceiver {
 		
 		ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);     
 		NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
-		if (activeNetwork != null) { // connected to the Internet
+		if (activeNetwork != null) { 
+			// connected to the internet
 		    if (activeNetwork.getType() == ConnectivityManager.TYPE_WIFI) {
+		    	// if device is connected to a wifi network, the name can get via wifimanager 
 		    	WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
 		    	String wifiName = wifiManager.getConnectionInfo().getSSID();
 		    	if (wifiName != null && !wifiName.contains("unknown ssid")){
 		    		Toast.makeText(
-		    				null,
-                            wifiName,
+		    				context,
+                            "Wifi- Network Name: "+wifiName,
                             Toast.LENGTH_LONG).show();
 		    	} else {
-		    	    // network name unknown
+		    		Toast.makeText(
+		    				context,
+                            "Network Name unknown",
+                            Toast.LENGTH_LONG).show();
 		    	}
 		    } else if (activeNetwork.getType() == ConnectivityManager.TYPE_MOBILE) {
+		    	// If device is connected to the internet via a mobile network, the name can get via TelephonyManager 
 		    	TelephonyManager tm = (TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE);
 		    	String networkName = tm.getNetworkOperatorName();
 		    	if (networkName != null){
-		    	    // networkName is the network name
+//		    		Output = (TextView) findViewById(R.id.out3);
+//					Output.append("networkName is the network name");
+		    		Toast.makeText(
+		    				context,
+		    				"Mobile Network Name: "+networkName,
+                            Toast.LENGTH_LONG).show();
+		    	   
 		    	} else {
-		    	    // network name unknown
+		    		
+		    		Toast.makeText(
+		    				context,
+                            "network name unknown",
+                            Toast.LENGTH_LONG).show();
 		    	}
 		    }
 		} else {
-		// not connected to the Internet
+			Toast.makeText(
+					context,
+                    "not connected to the internet",
+                    Toast.LENGTH_LONG).show();
 		}
 	}
 
-	
-
-}
+	}

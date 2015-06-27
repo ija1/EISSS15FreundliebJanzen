@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Test_Network_Status</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Network Test</string>
     <string name="action_settings">Settings</string>
 
 </resources>
