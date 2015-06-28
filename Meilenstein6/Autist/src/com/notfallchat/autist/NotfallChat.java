@@ -356,12 +356,7 @@ public class NotfallChat extends Activity {
 											buttonsID.removeAllViews();
 											sendID.removeAllViews();
 											MainActivity.defaultNotfallButton();
-											// TODO:
-											// if rating is negativ don't save
-											// save internal Storage
-											// save in db for the statistics
-											// send to employee in Kontext
-											// code refactoring
+	
 											if (autist.getVorName() != st.getFrom())
 												MainActivity.changeNotfallButton();
 											
