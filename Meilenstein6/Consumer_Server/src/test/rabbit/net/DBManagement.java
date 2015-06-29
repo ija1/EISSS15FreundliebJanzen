@@ -10,8 +10,8 @@ public class DBManagement {
 	 */
 	private static final String DB_DRIVER 		= "com.mysql.jdbc.Driver";
     private static final String DB_URL 			= "jdbc:mysql://localhost:3306/autismsupport";
-    private static final String DB_USER 		= "root";
-    private static final String DB_PASSWORD 	= "janjan1";
+    private static final String DB_USER 		= "****";
+    private static final String DB_PASSWORD 	= "****";
 	
     /**
      * Create the DB Connection
